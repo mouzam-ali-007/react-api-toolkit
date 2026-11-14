@@ -389,5 +389,5 @@ MIT © 2026 Mouzam Ali
 ---
 
 **Author:** Mouzam Ali  
-**GitHub:** https://github.com/mouzam-ali  
-**npm:** https://www.npmjs.com/~mouzam-ali
+**GitHub:** https://github.com/mouzam-ali-007
+**npm:** https://www.npmjs.com/~mouzam
