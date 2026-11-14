@@ -1,0 +1,26 @@
+{
+  "name": "@YOUR_NPM_USERNAME/react-api-toolkit",
+  "version": "1.0.0",
+  "description": "Reusable API toolkit for React applications",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
