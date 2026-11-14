@@ -1,5 +1,5 @@
 {
-  "name": "@YOUR_NPM_USERNAME/react-api-toolkit",
+  "name": "@mouzam/react-api-toolkit",
   "version": "1.0.0",
   "description": "Reusable API toolkit for React applications",
   "license": "MIT",
@@ -22,5 +22,14 @@
   },
   "dependencies": {
     "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@typescript/typescript6": "^6.0.2",
+    "jsdom": "^29.1.1",
+    "tsup": "^9.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
   }
 }
